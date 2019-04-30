@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>33 w 8th st</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
+    />
+    <style>
+      html {
+        font-size: 14px;
+      }
+
+      #img-one {
+        position: relative;
+        margin: 0 auto;
+      }
+
+      #img-one img {
+        position: absolute;
+        left: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+      }
+
+      #img-one img.ontop {
+        opacity: 0;
+      }
+
+      @keyframes cf3FadeInOut {
+        0% {
+          opacity: 1;
+        }
+        49% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      #img-one img.ontop {
+        animation-name: cf3FadeInOut;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+        animation-direction: alternate;
+      }
+    </style>
+  </head>
+  <body class="helvetica lh-copy">
+    <div class="mw8 center cf">
+      <div class="fl w-100 pa2 f4 pv4 mt5">
+        <div class="fl w-20">33 w 8th st</div>
+        <div class="fl w-30">co-working</div>
+        <div class="fl w-50 tr">
+          <a class="link" href="mailto:alex+office@tokentax.us">
+            Join today
+          </a>
+        </div>
+      </div>
+      <div class="fl w-50 pa2">
+        <div class=" bg-white tc" id="img-one">
+          <img src="images/night.png" />
+          <img class="ontop" src="images/outdoor.png" />
+        </div>
+      </div>
+      <div class="fl w-50 pa2">
+        <div class=" bg-white tc"><img src="images/desk.png" /></div>
+      </div>
+      <div class="fl w-100 pa2 f4 pb6">
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet
+        </p>
+
+        <p>
+          <a class="link" href="mailto:alex+office@tokentax.us"
+            >Contact us to book a tour</a
+          >
+        </p>
+
+        <h2 class="fw6 f4 mt5">
+          For $550/month, Full-time Membership includes:
+        </h2>
+
+        <ul>
+          <li>A dedicated desk where you can build your work home</li>
+          <li>
+            Storage space for your work-related materials (exact amount based on
+            your work needs)
+          </li>
+          <li>24/7 access with keypad entry</li>
+          <li>
+            Ability to use the space for photo shoots, events, and private
+            gatherings
+          </li>
+        </ul>
+
+        <h2 class="fw6 f4 mt5">
+          For $275/month, Part-time Membership includes:
+        </h2>
+        <p>
+          Setting yourself up for the day at a non-dedicated desk or in a lounge
+          space. Access up to 4 days per week from 9am–7pm
+        </p>
+
+        <h2 class="fw6 f4 mt5">Membership services include:</h2>
+        <ul>
+          <li>1 gigabit internet</li>
+          <li>An invitation to our active Slack team</li>
+          <li>Shared laser printers and office supplies</li>
+          <li>Ample gathering and lounge areas</li>
+          <li>Full kitchen</li>
+          <li>Private meeting room</li>
+          <li>Small private phonebooths for lactation or calls</li>
+          <li>Projection area and flat screen TV</li>
+          <li>1 block from washington square park</li>
+          <li>
+            Availability for occasional drop-ins from your colleagues, babies,
+            and pets
+          </li>
+          <li>
+            Other perks: unlimited houseplants, a gas grill, access to tools and
+            craft supplies, many stimulating lunch conversations, Wine
+            Wednesdays (and Tuesdays, Thursdays, depending on the week),
+            streaming World Cup soccer, and opportunity for feedback from and
+            collaboration with peers.
+          </li>
+        </ul>
+        <p>
+          <a class="link" href="mailto:alex+office@tokentax.us"
+            >Contact us to book a tour</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
