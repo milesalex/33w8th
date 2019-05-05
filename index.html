@@ -81,10 +81,10 @@
   <body class="lh-copy helvetica">
     <div class="mw8 center cf">
       <div class="fl w-100 pa2 f4 pv4 mt5">
-        <div class="fl w-20-ns w-100 fw5">33 w 8th st</div>
+        <div class="fl w-20-ns w-100 fw6">33 w 8th st</div>
         <div class="fl w-30-ns w-100">co-working</div>
         <div class="fl w-50-ns w-100 tr-ns mt4 mt0-ns">
-          <a class="link" href="mailto:alex+office@tokentax.us">
+          <a class="link" href="#book_a_tour">
             Join today
           </a>
         </div>
@@ -110,7 +110,7 @@
           Designers, developers, and creatives welcome.
         </p>
         <p>
-          <a class="link" href="mailto:alex+office@tokentax.us"
+          <a class="link" href="#book_a_tour"
             >Contact us to book a tour</a
           >
         </p>
@@ -148,11 +148,26 @@
           <li>Perfect for startups and freelancers</li>
         </ul>
 
-        <p>
-          <a class="link" href="mailto:alex+office@tokentax.us"
-            >Contact us to book a tour</a
-          >
-        </p>
+        <h2 class="fw6 f2 mt5">
+          <a id="book_a_tour"></a>Book a tour
+        </h2>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label class="db">Your Name:</label>
+            <input class="db" type="text" name="name" />  
+          </p>
+          <p>
+            <label class="db">Your Email:</label>
+            <input class="db" type="email" name="email" />
+          </p>
+          <p>
+            <label class="db">A short message to show that you're a nice person :)</label>
+            <textarea class="db w-100" rows="4" cols="50" name="message"></textarea>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </div>
     </div>
   </body>
